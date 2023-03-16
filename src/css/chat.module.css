@@ -1,0 +1,70 @@
+.chatboxContainer{
+    height: 2rem;
+    width: 13rem;
+    background-color: #4054C8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.chatListContainer{
+    height: 13rem;
+    width: 13rem;
+    background-color: #ffffff;
+    margin: 0;
+    z-index: 2;
+    overflow: auto;
+
+}
+
+.chatList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.onlineUserContainer{
+    display: flex;
+    margin: 0 0 .9rem 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.left, .leftSection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+.userAvatar{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin: 0 .5rem 0 0;
+}
+
+.userName{
+    font-size: .8rem;
+    color: #a7a7a7;
+    margin: 0;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0 .5rem 0 0;
+}
+.icon{
+    color: #ffffff;
+}
+
+.dot{
+    color: #1FAF66;
+    height: 1rem;
+    scale: 50%;
+}

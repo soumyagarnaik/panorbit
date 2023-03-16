@@ -1,0 +1,145 @@
+.container{
+    margin: 0;
+    padding: 1rem ;
+    position: relative;
+}
+
+.topNav, .profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topNav{
+    border-bottom: 1px solid lightgray;
+}
+.profile{
+    width: 10rem;
+}
+
+.avatar{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.profileContent{
+    display: flex;
+    width: 100%;
+}
+
+.profileDetails{
+    width: 35%;
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.profileAddress{
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+}
+
+.profilePic{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 .3rem 0;
+    width: 100%;
+}
+
+.lableText{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text{
+    color: #a7a7a7;
+    font-size: .9rem;
+    margin:0 8px 0 0 ;
+    font-weight: 500;
+}
+
+.valueText{
+    color: #565656;
+    font-size: .9rem;
+    margin:0;
+    width: 60%;
+    font-weight: 500;
+}
+
+
+.companyData{
+    border-top: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comptext{
+    /* padding-bottom: .1rem; */
+    color: #a7a7a7;
+    margin: .6rem 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.profileAddress{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.address{
+    padding: .5rem;
+}
+
+.mapHolder{
+    height: 15rem;
+    width: 100%;
+}
+
+.geoHolder{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text{
+    color:#a7a7a7;
+    font-size: .9rem;
+    margin: .5rem;
+}
+
+.chatbox{
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    margin: 0;
+}
+
+.comingsoon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.comingText{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #eeeeee;
+}
